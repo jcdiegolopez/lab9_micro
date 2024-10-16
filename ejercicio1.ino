@@ -8,7 +8,7 @@ void setup() {
 
 void loop() {
     if(i == 10){
-      i = 0;
+      i = 1;
     }
     digitalWrite(ledPin, HIGH);    // Enciende el LED
     delay(i * delayValue);               // Espera por i segundos
